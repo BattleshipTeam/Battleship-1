@@ -39,4 +39,4 @@ jobs:
       - store_test_results:
           path: test/test-results
       - store_artifacts:
-          path: dist (edited)
+          path: dist 
