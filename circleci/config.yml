@@ -20,6 +20,3 @@ jobs:
       - store_artifacts:
           path: /dist/artifacts
 
- machine:
-  node:
-    version: 0.10.22
