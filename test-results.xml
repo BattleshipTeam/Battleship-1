@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.0179999999999993" tests="18" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-03-09T10:05:01" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GAME INSTANCE FUNCTIONS" timestamp="2018-03-09T10:05:01" tests="0" file="C:\Users\eevak\Desktop\Battleship-1\test\game_test.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="checkGameStatus" timestamp="2018-03-09T10:05:01" tests="1" file="C:\Users\eevak\Desktop\Battleship-1\test\game_test.js" failures="0" time="0.001">
+    <testcase name="GAME INSTANCE FUNCTIONS checkGameStatus should tell me when the game is over" time="0.001" classname="should tell me when the game is over">
+    </testcase>
+  </testsuite>
+  <testsuite name="takeTurn" timestamp="2018-03-09T10:05:01" tests="1" file="C:\Users\eevak\Desktop\Battleship-1\test\game_test.js" failures="0" time="0">
+    <testcase name="GAME INSTANCE FUNCTIONS takeTurn should return false if the game ends" time="0" classname="should return false if the game ends">
+    </testcase>
+  </testsuite>
+  <testsuite name="saveGame" timestamp="2018-03-09T10:05:01" tests="1" file="C:\Users\eevak\Desktop\Battleship-1\test\game_test.js" failures="0" time="1.003">
+    <testcase name="GAME INSTANCE FUNCTIONS saveGame should update save status" time="1.003" classname="should update save status">
+    </testcase>
+  </testsuite>
+  <testsuite name="Mocha" timestamp="2018-03-09T10:05:02" tests="1" file="C:\Users\eevak\Desktop\Battleship-1\test\main_test.js" failures="0" time="0">
+    <testcase name="Mocha should run our tests using npm" time="0" classname="should run our tests using npm">
+    </testcase>
+  </testsuite>
+  <testsuite name="PLAYER METHODS" timestamp="2018-03-09T10:05:02" tests="0" file="C:\Users\eevak\Desktop\Battleship-1\test\player_test.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="validateLocation" timestamp="2018-03-09T10:05:02" tests="3" file="C:\Users\eevak\Desktop\Battleship-1\test\player_test.js" failures="0" time="0">
+    <testcase name="PLAYER METHODS validateLocation shoud confirm valid for unoccupied locations in range" time="0" classname="shoud confirm valid for unoccupied locations in range">
+    </testcase>
+    <testcase name="PLAYER METHODS validateLocation shoud confirm INvalid for occupied locations in range" time="0" classname="shoud confirm INvalid for occupied locations in range">
+    </testcase>
+    <testcase name="PLAYER METHODS validateLocation shoud confirm INvalid for UNoccupied locations OUT of range" time="0" classname="shoud confirm INvalid for UNoccupied locations OUT of range">
+    </testcase>
+  </testsuite>
+  <testsuite name="validateLocations" timestamp="2018-03-09T10:05:02" tests="2" file="C:\Users\eevak\Desktop\Battleship-1\test\player_test.js" failures="0" time="0">
+    <testcase name="PLAYER METHODS validateLocations should correctly report a list of unoccupied locations is valid" time="0" classname="should correctly report a list of unoccupied locations is valid">
+    </testcase>
+    <testcase name="PLAYER METHODS validateLocations should correctly report a a problem if any location in the list is invalid" time="0" classname="should correctly report a a problem if any location in the list is invalid">
+    </testcase>
+  </testsuite>
+  <testsuite name="placeShip" timestamp="2018-03-09T10:05:02" tests="2" file="C:\Users\eevak\Desktop\Battleship-1\test\player_test.js" failures="0" time="0.009000000000000001">
+    <testcase name="PLAYER METHODS placeShip should update a ship with a valid starting location" time="0.007" classname="should update a ship with a valid starting location">
+    </testcase>
+    <testcase name="PLAYER METHODS placeShip should throw an error if no direction is specified" time="0.002" classname="should throw an error if no direction is specified">
+    </testcase>
+  </testsuite>
+  <testsuite name="checkForShip" timestamp="2018-03-09T10:05:02" tests="4" file="C:\Users\eevak\Desktop\Battleship-1\test\ship_test.js" failures="0" time="0.003">
+    <testcase name="checkForShip should correctly report no ship at a given players coordinates" time="0" classname="should correctly report no ship at a given players coordinates">
+    </testcase>
+    <testcase name="checkForShip should correctly report a ship located at the given coordinates" time="0" classname="should correctly report a ship located at the given coordinates">
+    </testcase>
+    <testcase name="checkForShip should handle ships located at more than one coordinate" time="0" classname="should handle ships located at more than one coordinate">
+    </testcase>
+    <testcase name="checkForShip should handle checking multiple ships" time="0.003" classname="should handle checking multiple ships">
+    </testcase>
+  </testsuite>
+  <testsuite name="damageShip" timestamp="2018-03-09T10:05:02" tests="1" file="C:\Users\eevak\Desktop\Battleship-1\test\ship_test.js" failures="0" time="0.001">
+    <testcase name="damageShip should register damage on a given ship at a given location" time="0.001" classname="should register damage on a given ship at a given location">
+    </testcase>
+  </testsuite>
+  <testsuite name="fire" timestamp="2018-03-09T10:05:02" tests="2" file="C:\Users\eevak\Desktop\Battleship-1\test\ship_test.js" failures="0" time="0.001">
+    <testcase name="fire should record damage on the given players ship at a given coordinate" time="0" classname="should record damage on the given players ship at a given coordinate">
+    </testcase>
+    <testcase name="fire should NOT record damage if theres no ship at my coordinates" time="0.001" classname="should NOT record damage if theres no ship at my coordinates">
+    </testcase>
+  </testsuite>
+</testsuites>

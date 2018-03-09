@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
+    "testreport": "mocha test --reporter mocha-junit-reporter",
     "build": "webpack --config ./dist/webpack.config.js"
   },
   "repository": {
