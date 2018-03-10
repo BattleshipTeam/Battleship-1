@@ -4,6 +4,9 @@
 #
 version: 2
 jobs:
+  general:
+    artifacts:
+      - "art"
   build:
     docker:
       # specify the version you desire here
@@ -39,12 +42,12 @@ jobs:
           name: Creating Artifacts
           command: |
             echo dist/bundle.js > artifact-1;
-            mkdir artifacts;
-            echo "my artifact files in a dir" > artifacts/artifact-2;
+            mkdir art;
+            echo "my artifact files in a dir" > art/artifact-2;
 
       - store_test_results:
           path: test/test-results
       - store_artifacts:
-          path: artifact-1
+          path: art/artifact-1
       - store_artifacts:
-          path: artifacts
+          path: art/artifacts
