@@ -4,9 +4,6 @@
 #
 version: 2
 jobs:
-  general:
-    artifacts:
-      - "art"
   build:
     docker:
       # specify the version you desire here
