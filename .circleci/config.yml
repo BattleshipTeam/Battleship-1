@@ -16,6 +16,4 @@ jobs:
       - store_test_results:
           path: test/test-results
       - store_artifacts:
-          path: art/artifact-1
-      - store_artifacts:
-          path: art/artifacts
+          path: dist
