@@ -13,12 +13,6 @@ jobs:
           key: v1-dependencies-{{ checksum “package.json” }}
       - run: npm test
       - run: npm run build
-          name: Creating Artifacts
-          command: |
-            echo dist/bundle.js > artifact-1;
-            mkdir art;
-            echo "my artifact files in a dir" > art/artifact-2;
-
       - store_test_results:
           path: test/test-results
       - store_artifacts:
